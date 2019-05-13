@@ -1,16 +1,23 @@
-# projec_04
+# Flutter Project
 
-A new Flutter project.
+## A Movie App using Flutter
 
-## Getting Started
+- A Simple Movie application using [The Movie Db API](https://developers.themoviedb.org/3/getting-started/introduction), built using Flutter for iOS.
 
-This project is a starting point for a Flutter application.
+### Welcome Page
 
-A few resources to get you started if this is your first Flutter project:
+<img src="image/FirstPage.png" width="200">
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+### Loading Page
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+<img src="image/LoadingPage.png" width="200">
+
+### Main Page
+
+<img src="image/SecondPage.png" width="200">
+
+### Last Page
+
+<img src="image/ThirdPage.png" width="200">
+
+**Thank You :heart:**
