@@ -11,6 +11,7 @@ class MoviePage extends StatefulWidget {
   _MoviePageState createState() => _MoviePageState();
 }
 
+// tesing comment 2
 class _MoviePageState extends State<MoviePage> {
   @override
   Widget build(BuildContext context) {
