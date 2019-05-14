@@ -6,7 +6,7 @@
 
 ### Welcome Page
 
-<img src="image/FirstPage.png" width="200">
+<img src="image/MainPage.png" width="200">
 
 ### Loading Page
 
