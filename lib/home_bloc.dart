@@ -42,10 +42,6 @@ class HomeBloc {
     _movieSubject.sink.add(value);
   }
 
-  // Stream<List<Movie>> getMovies() {
-  //   return _movieSubject.stream;
-  // }
-
   Stream<List<Movie>> get getMovies => _movieSubject.stream;
 
   Future<void> fetchData() async {

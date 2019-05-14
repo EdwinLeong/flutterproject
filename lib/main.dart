@@ -28,7 +28,6 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
-  // testing
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,7 +78,7 @@ class _MyAppState extends State<MyApp> {
                           borderRadius: BorderRadius.circular(30.0),
                           child: RaisedButton(
                             onPressed: () => _Press(),
-                            child: Text('Start'),
+                            child: Text('Login'),
                           ),
                         )
                       : CircularProgressIndicator(),

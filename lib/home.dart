@@ -30,9 +30,6 @@ class _HomePageState extends State<HomePage> {
             children: <Widget>[
               Row(
                 children: <Widget>[
-                  //Padding(
-                  //  padding: EdgeInsets.only(right: 6.0),
-                  //),
                   Image.network(
                     'http://image.tmdb.org/t/p/w780/' + m.posterPath,
                     width: 150.0,
@@ -52,7 +49,6 @@ class _HomePageState extends State<HomePage> {
                       ),
                       Row(
                         textBaseline: TextBaseline.alphabetic,
-                        //crossAxisAlignment: CrossAxisAlignment.baseline,
                         children: <Widget>[
                           Container(
                               width: 200.0,
@@ -71,9 +67,6 @@ class _HomePageState extends State<HomePage> {
                   )
                 ],
               )
-
-              //Text(m.popularity.toString()),
-              // Text(m.overview)
             ],
           ),
         ),

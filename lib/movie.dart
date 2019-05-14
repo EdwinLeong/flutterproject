@@ -11,7 +11,6 @@ class MoviePage extends StatefulWidget {
   _MoviePageState createState() => _MoviePageState();
 }
 
-// tesing comment 2
 class _MoviePageState extends State<MoviePage> {
   @override
   Widget build(BuildContext context) {
@@ -24,13 +23,6 @@ class _MoviePageState extends State<MoviePage> {
       ),
       body: CustomScrollView(
         slivers: <Widget>[
-          //const SliverAppBar(
-          //  pinned: true,
-          //  expandedHeight: 25.0,
-          //  flexibleSpace: FlexibleSpaceBar(
-          //    title: Text('Demo'),
-          //  ),
-          //),
           SliverList(
             delegate: SliverChildListDelegate([
               Container(
